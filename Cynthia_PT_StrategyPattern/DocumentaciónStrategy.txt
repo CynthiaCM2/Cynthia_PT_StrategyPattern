@@ -1,0 +1,16 @@
+﻿1.- Nombre del proyecto
+Strategy Pattern
+2.- Para que se utiliza
+Para organizar el comportamiento de un objeto
+3.- La problematica que soluciona
+Determinar como se realiza la comunicación entre objetos para resolver alguna tarea
+4.- Cuando debe ser utilizada
+Cuando tienes varios servicios y para cada servicio es distinta la programación pero cada uno guardan la misma base de datos
+5.- Como se crea el prroyecto
+Se crea una clase de interfaz es decir una abstracta que solo mandará a realizar un comportamiento
+Se crean las clases que se referencian los métodos que se van a utilizar y se le inserta a cada una el console.write para insertar el obejto de la función
+Se crea una clase para dar el contexto de las demás clases junto con sus métodos los cuales se refenciaran y se insertaran los switch case para las diferentes 
+opciones de cada método
+Y para correr el código en la clase Program se insertaran los diferentes objetos de las estrategias con la función:
+ EstrategiasDelBorrachoContexto oBorracho = new EstrategiasDelBorrachoContexto();
+y dependiendo de cada estrategia se le insertan nuevas funciones cambiando la estrategia
